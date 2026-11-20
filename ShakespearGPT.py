@@ -199,7 +199,7 @@ for iter in range(max_iters):
 
 print(decode(model.generate(torch.zeros((1, 1), dtype=torch.long, device=device), max_new_tokens=600)[0].tolist()))
 
-filename = "warp_harrp_" + str(max_iters) + ".pt"
+filename = str(max_iters) + " training response" + ".pt"
 torch.save({
     'model_state_dict': model.state_dict(),
     'vocab_size': vocab_size,
