@@ -149,6 +149,8 @@ Andrej Karpathy – Inspiration and educational material for building GPT from s
 
 PyTorch – Deep learning framework used to implement and train the model.
 
+CMKL University - Course on creating this small language model
+
 <h3>Author</h3>
 
 IoGamZ
